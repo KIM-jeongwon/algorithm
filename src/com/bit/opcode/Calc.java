@@ -4,27 +4,27 @@ import java.util.Scanner;
 public class Calc {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		String[] arr = new String [5];
-		arr[0] = "+";				
-		arr[1] = "-";				
-		arr[2] = "*";				
-		arr[3] = "/";				
-		arr[4] = "%";				
+		String[] arr = {
+				"+" ,"-" ,"*" ,"/" ,"%" ,
+				"첫번째 숫자를 입력하세요" ,
+				"두번째 숫자를 입력하세요" ,
+				 "더하기+, 빼기-, 곱하기*, 나눈 몫/ , 나눈 나머지% 를 입력하세요."
+		};
 		int num1 = 0, num2 = 0, result = 0;
 		String opcode = "";
-		System.out.print("\t첫번째 숫자 입력\n");
+		System.out.print(arr[5]);
 		num1 = scanner.nextInt();
-		System.out.print("\t두번째 숫자 입력\n");
+		System.out.print(arr[6]);
 		num2 = scanner.nextInt();
-		System.out.print("\t사칙연산 입력\n");
+		System.out.print(arr[7]);
 		opcode = scanner.next();
 		if(opcode.equals(arr[0])) {
 			result = num1 + num2;
 		}else if(opcode.equals(arr[1])){
 			result = num1 - num2;
-		}else if(opcode.equals(arr[2])) {
+		}else if(opcode.equals(arr[2])){
 			result = num1 * num2;
-		}else if(opcode.equals(arr[3])) {
+		}else if(opcode.equals(arr[3])){
 			result = num1 / num2;
 		}else if(opcode.equals(arr[4])){
 			result = num1 % num2;
