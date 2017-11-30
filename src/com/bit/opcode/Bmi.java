@@ -12,13 +12,14 @@ BMI = T2/W
 import java.util.Scanner;
 
 public class Bmi {
-	public static void main(String[] args) {
+	public void main() {
 		Scanner s = new Scanner(System.in);
 		String res = "";
 		int a = 0;
 		System.out.println("사람 수를 입력하세요");
 		a = s.nextInt();
-		for (int i=1; i<=a; i++) {
+		int i = 0;
+		while(i < a) {
 			String name = "", t = "";
 			double hei = 0.0, wei = 0.0, bmi = 0.0;
 			System.out.println("이름을 입력하세요.");
@@ -42,7 +43,9 @@ public class Bmi {
 				t = "저체중입니다.";
 			}
 			res += String.format("이름:%s %s\n", name , t) ;
+			a--;
 		}
+		
 		System.out.printf(res);
 	}
 }

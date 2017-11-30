@@ -1,7 +1,7 @@
-package bit.com.loop;
+package com.bit.loop;
 
 public class EvenSum {
-	public static void main(String[] args) {
+	public void main() {
 		String str =" ";
 		int evensum = 0;
 		for(int i =1; i<=100; i++) {

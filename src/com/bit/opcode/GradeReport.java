@@ -2,7 +2,7 @@ package com.bit.opcode;
 
 import java.util.Scanner;
 public class GradeReport{
- public static void main(String[] args) {
+ public void main() {
 	 Scanner s = new Scanner(System.in);
 	 int kor = 0, eng = 0, math = 0, avg = 0;
 	 String name ="", test = "";

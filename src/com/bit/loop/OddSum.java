@@ -1,4 +1,4 @@
-package bit.com.loop;
+package com.bit.loop;
 
 // 1~100 까지 홀수의 합
 // modular %

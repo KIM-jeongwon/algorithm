@@ -1,4 +1,4 @@
-package bit.com.loop;
+package com.bit.loop;
 
 /*
 Algorithm 11번 문제
@@ -7,7 +7,7 @@ Algorithm 11번 문제
 oddsum -=i;
 **/
 public class ArithmeticSequence11 {
-	public static void main(String[] args) {
+	public void main() {
 		int result = 0;
 		String a = "";
 		for (int i = 1; i <= 100; i++) {

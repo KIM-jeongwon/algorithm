@@ -2,7 +2,7 @@ package com.bit.opcode;
 
 import java.util.Scanner;
 public class Whoareyou {
-	public static void main(String[] args) {
+	public void main() {
 	Scanner s = new Scanner(System.in);
 	String[] arr = {
 	"당신의 이름은" ,

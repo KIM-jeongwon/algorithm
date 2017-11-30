@@ -2,7 +2,7 @@ package com.bit.opcode;
 
 import java.util.Scanner;
 public class Calc {
-	public static void main(String[] args) {
+	public void main() {
 		Scanner scanner = new Scanner(System.in);
 		String[] arr = {
 				"+" ,"-" ,"*" ,"/" ,"%" ,

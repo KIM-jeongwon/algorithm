@@ -1,8 +1,9 @@
 package com.bit.opcode;
 
 import java.util.Scanner;
+
 public class ClacSwitch {
-	public static void main(String[] args) {
+	public void main() {
 	Scanner s = new Scanner(System.in);
 	String[] arr = {
 	"첫번째 숫자 값을 입력하세요." ,

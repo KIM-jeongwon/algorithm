@@ -1,4 +1,4 @@
-package bit.com.loop;
+package com.bit.loop;
 
 public class ForLoopDemo {
 	public static void main(String[] args) {

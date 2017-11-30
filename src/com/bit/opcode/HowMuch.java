@@ -2,7 +2,7 @@ package com.bit.opcode;
 
 import java.util.Scanner;
 public class HowMuch {
-	public static void main(String[] args) {
+	public void main() {
 		Scanner s = new Scanner(System.in);
 		int price = 0, b = 0, c = 0, d = 0, result = 0;
 		String[] arr = {

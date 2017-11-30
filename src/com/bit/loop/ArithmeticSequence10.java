@@ -1,4 +1,4 @@
-package bit.com.loop;
+package com.bit.loop;
 /*
  Algorithm 10번 문제
  1+2+3+4+....+100 의 합계
@@ -6,7 +6,7 @@ package bit.com.loop;
  overload -> 기존값을 삭제하지 않고 추가 ("+")
  **/
 public class ArithmeticSequence10 {
-	public static void main(String[] args) {
+	public void main() {
 		// 1 + 2 + 3 ...+10
 		int result = 0;
 		String a = " ";
